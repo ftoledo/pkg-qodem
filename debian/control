@@ -1,0 +1,22 @@
+Source:qodem
+Section: comm
+Priority: optional
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 10),
+    libsdl1.2-dev,
+    libncursesw5-dev,
+    libncurses5-dev,
+    libxaw7-dev,
+    libxt-dev,
+    automake,
+    dh-autoreconf
+Standards-Version: 3.7.2
+
+Package: qodem
+Architecture: any
+Description: Qodem Terminal Emulator
+ Qodem is a from-scratch clone implementation of the Qmodem communications
+ program made popular in the days when Bulletin Board Systems ruled the night.
+ Qodem emulates the dialing directory and the terminal screen features
+ of Qmodem over both modem and Internet connections.
+
